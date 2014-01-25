@@ -1,5 +1,5 @@
 var socket = io.connect("http://localhost", {port: 8000, transports: ["websocket"]});
-
+// BoilerPlate. This is when the client actually makes a websocket connection.
 
 var gameStarted = false;
     turn = false;
